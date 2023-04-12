@@ -23,6 +23,16 @@ footer {
     text-align: center;
 }
 
+#content_cards {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-top: 10%;
+    margin: auto;
+}
+
 /* --- CARD --- */
 
 .card {
@@ -44,9 +54,9 @@ footer {
 
 /* --- CARD MODAL--- */
 .card_modal {
-    max-width: 650px;
+    max-width: 100%;
+    height: 90%;
     padding: 10px;
-    background-color: red;
 }
 
 .card_info {
@@ -67,6 +77,56 @@ footer {
 
 .card_info p {
     font-size: 18px;
+    font-weight: 100;
     line-height: 25px;
     margin-bottom: 40px;
+}
+
+#modal_btn {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 25%;
+}
+
+#voltar,
+#enviar {
+    width: 150px;
+    height: 45px;
+}
+
+#voltar {
+    background-color: rgba(0, 0, 0, 0.795);
+    border: none;
+    color: var(--color-02);
+}
+
+#enviar {
+    background-color: rgba(218, 17, 17, 0.685);
+    border: none;
+    color: var(--color-03);
+}
+
+
+:root {
+    --color-01: red;
+    --color-02: gray;
+    --color-03: white;
+}
+
+/* --- MODAL ---*/
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+dialog {
+    border: none;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(235, 17, 35, 0.5);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(235, 17, 35, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(235, 17, 35, 0.5);
 }

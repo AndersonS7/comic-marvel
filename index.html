@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="./assets/icons/shield.png">
     <title>Marvel Comics</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="./assets/components/card.js" defer></script> -->
 </head>
 
 <body>
@@ -16,41 +17,54 @@
     </header>
 
     <!-- CARTÃO PRINCIPAL -->
-    <div class="card">
-        <img src="./assets/img/capa-hq.jpg" alt="capa hq">
-        <h2>NOME DA HQ</h2>
-        <p>Nome do autor</p>
+    <div id="content_cards">
+        <div class="card">
+            <img src="./assets/img/capa-hq.jpg" alt="capa hq">
+            <h2>NOME DA HQ</h2>
+            <p>Nome do autor</p>
+        </div>
+
+        <!-- <my-card path-src="./assets/img/capa-hq.jpg"></my-card> -->
+
     </div>
 
     <!-- CARTÃO DO MODAL -->
-    <div class="card_modal">
-        <div class="card_info">
-            <div>
-                <img src="./assets/img/capa-hq.jpg" alt="">
+    <dialog>
+        <div class="card_modal">
+            <div class="card_info">
+                <div>
+                    <img src="./assets/img/capa-hq.jpg" alt="">
+                </div>
+                <div>
+                    <h2>NOME DA HQ</h2>
+                    <h3>ano da publicação</P>
+                        <h3>nome do autor</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quidem quod error doloremque accusamus nulla iure recusandae odit quam at,
+                                magnam aspernatur omnis facere aperiam delectus totam nisi perferendis, commodi id!
+                            </p>
+                </div>
             </div>
-            <div>
-                <h2>NOME DA HQ</h2>
-                <P>ano da publicação</P>
-                <p>nome do autor</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quidem quod error doloremque accusamus nulla iure recusandae odit quam at,
-                    magnam aspernatur omnis facere aperiam delectus totam nisi perferendis, commodi id!</p>
-            </div>
-        </div>
 
-        <div>
-            <button>
-                VOLTAR
-            </button>
-            <button>
-                ENVIAR
-            </button>
+            <div id="modal_btn">
+                <button id="voltar">
+                    VOLTAR
+                </button>
+                <button id="enviar">
+                    ENVIAR
+                </button>
+            </div>
         </div>
-    </div>
+    </dialog>
 
     <footer>
         <p>&copy;Anderson Silva. 2023 All rigths reserved </p>
     </footer>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="modalControl.js"></script>
+    <script src="getApi.js"></script>
 </body>
 
 </html>
