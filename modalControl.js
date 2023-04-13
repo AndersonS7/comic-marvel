@@ -1,19 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
     const modal = document.querySelector("dialog");
-    const button = document.querySelectorAll(".card");
     const buttonClose = document.querySelector("dialog #voltar");
+    //const button = document.querySelectorAll(".card");
 
-    console.log(button.length);
+    // button.onclick = function () {
+    //     modal.showModal();
+    // }
 
-    button.onclick = function () {
+    // buttonClose.onclick = function () {
+    //     modal.close();
+    // }
+
+    function ShowModal() {
         modal.showModal();
     }
 
-    buttonClose.onclick = function () {
+    function CloseModal(){
         modal.close();
     }
 });
-
-function teste (){
-    alert('vai da certo');
-}
