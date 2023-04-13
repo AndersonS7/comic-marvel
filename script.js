@@ -13,8 +13,6 @@ axios.get(`http://gateway.marvel.com/v1/public/comics?ts=${time}&apikey=${public
 
             creatElementComic(srcImg, price);
         });
-
-
     })
     .catch(err => console.log(err));
 //title, author, divCards
