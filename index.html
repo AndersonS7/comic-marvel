@@ -7,7 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/icons/shield.png">
     <title>Marvel Comics</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,13 +20,14 @@
         <img src="./assets/img/logo02.png" alt="logo">
     </header>
 
-    <!-- CARTÃO PRINCIPAL -->
-    <div id="content_cards">
-
+    <!-- cartão principal -->
+    <div id="box">
+        <h2 id="title">new comics</h2>
+        <div id="content_cards"></div>
     </div>
 
-    <!-- CARTÃO DO MODAL -->
-    <dialog>
+    <!-- modal de informação -->
+    <dialog id="modal_comics">
         <div class="card_modal">
             <div class="card_info">
                 <div>
@@ -29,9 +35,9 @@
                 </div>
                 <div>
                     <h2>NOME DA HQ</h2>
-                    <p>Collaborators</p>
+                    <p class="title_info">Collaborators</p>
                     <p id="author">nome do autor</p>
-                    <p>Description</p>
+                    <p class="title_info">Description</p>
                     <p id="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Quidem quod error doloremque accusamus nulla iure recusandae odit quam at,
                         magnam aspernatur omnis facere aperiam delectus totam nisi perferendis, commodi id!
@@ -40,44 +46,32 @@
             </div>
 
             <div id="modal_btn">
-                <button id="voltar">
-                    VOLTAR
+                <button id="back">
+                    BACK
                 </button>
-                <button id="enviar">
-                    ENVIAR
+                <button id="send">
+                    SEND
                 </button>
             </div>
         </div>
     </dialog>
 
-    <!-- Google Mpas -->
-    <div id="map"></div>
-
-    <script>
-
-        let map;
-
-        function initMap() {
-            map = new google.maps.Map(document.getElementById("map"), {
-                center: { lat: -34.397, lng: 150.644 },
-                zoom: 8,
-            });
-        }
-
-        window.initMap = initMap;
-
-    </script>
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5Z2pfRmViH48CGvf76QikpntbnvK5XuQ&callback=initMap"></script>
+    <!-- modal Google Mpas -->
+    <dialog id="modal_maps">
+        <div id="map"></div>
+        <button id="back_map">BACK</button>
+    </dialog>
 
     <footer>
         <p>&copy;Anderson Silva. 2023 All rigths reserved </p>
     </footer>
 
     <!-- scripts -->
+    <script src="./assets/scripts/script.js"></script>
+    <script src="./assets/scripts/map.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="modalControl.js" defer></script>
-    <script src="script.js" defer></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5Z2pfRmViH48CGvf76QikpntbnvK5XuQ&callback=initMap"></script>
 </body>
 
 </html>

@@ -1,7 +1,10 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
 
-    const modal = document.querySelector("dialog");
-    const buttonClose = document.querySelector("dialog #voltar");
+    const modal = document.querySelector("#modal_comics");
+    const modal_maps = document.querySelector("#modal_maps");
+    const buttonClose = document.querySelector("#modal_comics #back");
+    const buttonSendComic = document.querySelector("#modal_comics #send");
+    const buttonBackMap = document.querySelector("#modal_maps #back_map");
 
     const publicKey = "efb22b58ab642fabb5e7e0ea8fb67c45";
     const privateKey = "30c0e62f8bd2eaa2d620b21444e0b94c6a76e416";
@@ -9,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     axios.get(`http://gateway.marvel.com/v1/public/comics?ts=${time}&apikey=${publicKey}&hash=8da0078cb66a3cf087bbc80d9cc00e5b`)
         .then(response => {
-            const data = response.data.data.results
-            //console.log(data);
+
+            const data = response.data.data.results;
 
             data.forEach(element => {
                 const srcImg = element.thumbnail.path + "." + element.thumbnail.extension;
@@ -22,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 element.creators.items.forEach(authorName => {
                     author.push(authorName.name != undefined ? " " + authorName.name + ` (${authorName.role})` : "");
                 })
-
                 creatElementComic(srcImg, price, title, description, author);
             });
         })
@@ -30,12 +32,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     function creatElementComic(srcImg, price, title, description, author) {
+
         const content_cards = document.querySelector("#content_cards");
 
         const divCard = document.createElement("div");
         divCard.setAttribute("class", "card");
         divCard.addEventListener("click", () => {
+
             ShowModal(srcImg, title, description, author);
+
         });
 
         const imga = document.createElement("img");
@@ -51,9 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
         divCard.appendChild(h2);
         divCard.appendChild(p);
         content_cards.appendChild(divCard);
+
     }
 
     function ShowModal(srcImg, title, description, listNameAauthor) {
+
         modal.showModal();
 
         const imag = modal.querySelector("img");
@@ -67,9 +74,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const auth = modal.querySelector("#author");
         auth.innerHTML = listNameAauthor;
+
     }
 
-    buttonClose.onclick = function () {
+    buttonClose.onclick = () => {
         modal.close();
+    }
+
+    buttonSendComic.onclick = () => {
+        modal_maps.showModal();
+    }
+
+    buttonBackMap.onclick = () => {
+        modal_maps.close();
     }
 });
