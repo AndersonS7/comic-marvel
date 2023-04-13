@@ -130,3 +130,11 @@ dialog {
     -moz-box-shadow: 0px 0px 15px 0px rgba(235, 17, 35, 0.5);
     box-shadow: 0px 0px 15px 0px rgba(235, 17, 35, 0.5);
 }
+
+
+/* GOOGLE MAPS */
+#map {
+    height: 500px;
+    width: 500px;
+    background: #ddd;
+}
