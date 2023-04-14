@@ -19,7 +19,6 @@ A primeira etapa foi concluída (consumir a api marvel, criar a lista de quadrin
 última
 parte que consiste no envio do quadrinho para um endereço escolhido no google não foi concluída.
 
-Detalhes do projeto
 Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
 
 <h3>O projeto foi construído usando:</h3>
