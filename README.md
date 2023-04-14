@@ -1,4 +1,4 @@
-<h1>COMICS MARVEL 😎</h1>
+<h1>COMICS MARVEL 😁</h1>
 
 <h2>Contato</h2>
 <ul>
