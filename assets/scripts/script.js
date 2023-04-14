@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const modal = document.querySelector("#modal_comics");
     const modal_maps = document.querySelector("#modal_maps");
-    const buttonClose = document.querySelector("#modal_comics #back");
+    const buttonModalClose = document.querySelector("#modal_comics #back");
     const buttonSendComic = document.querySelector("#modal_comics #send");
     const buttonBackMap = document.querySelector("#modal_maps #back_map");
 
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    buttonClose.onclick = () => {
+    buttonModalClose.onclick = () => {
         modal.close();
     }
 
