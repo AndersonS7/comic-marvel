@@ -1,4 +1,4 @@
-<h1>COMICS MARVEL</h1> 😎
+<h1>COMICS MARVEL 😎</h1>
 
 <h2>Contato</h2>
 <strong><a href="https://anderson.vercel.app/" target="_blank">Meu portfólio</a></strong>
@@ -24,7 +24,8 @@
     Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
 </p>
 
-<p>O projeto foi construído usando:</p>
+
+<h3>O projeto foi construído usando:</h3>
 <ul>
     <li>JavaScript</li>
     <li>HTML</li>
@@ -33,6 +34,7 @@
     <li>API Marvel</li>
     <li>API Google Maps</li>
 </ul>
+
 <p>
     O layout da página segue um estilo simples e minimalista, e foi feita para se ajustar em vários tipos de tela.
     <br>
@@ -43,9 +45,11 @@
 <strong>
     <p>Links de referência</p>
 </strong>
-<a href="https://www.youtube.com/watch?v=hg66uftLsTQ" target="_blank">Vídeo 01</a>
-<a href="https://www.youtube.com/watch?v=kHjnnEBVgw4" target="_blank">Vídeo 02</a>
-<a href="https://www.youtube.com/watch?v=jlqgqSFIKPU" target="_blank">Vídeo 03</a>
-<a href="https://www.youtube.com/watch?v=HgayBu0FSjA&list=PLfeu5i2CGb0sDdiR_RpWbH-758luP3_fj&index=2" target="_blank">Vídeo 04</a>
-<a href="https://www.youtube.com/watch?v=xZhRP4_o6z4">Vídeo 05</a>
-<a href="https://developer.mozilla.org/pt-BR/">Vídeo 06</a>
+<ul>
+    <li><a href="https://www.youtube.com/watch?v=hg66uftLsTQ" target="_blank">Vídeo 01</a></li>
+    <li><a href="https://www.youtube.com/watch?v=kHjnnEBVgw4" target="_blank">Vídeo 02</a></li>
+    <li><a href="https://www.youtube.com/watch?v=jlqgqSFIKPU" target="_blank">Vídeo 03</a></li>
+    <li><a href="https://www.youtube.com/watch?v=HgayBu0FSjA&list=PLfeu5i2CGb0sDdiR_RpWbH-758luP3_fj&index=2" target="_blank">Vídeo 04</a></li>
+    <li><a href="https://www.youtube.com/watch?v=xZhRP4_o6z4">Vídeo 05</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/">Vídeo 06</a></li>
+</ul>
