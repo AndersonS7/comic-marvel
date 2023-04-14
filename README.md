@@ -6,7 +6,7 @@
     <li><strong><a href="https://www.linkedin.com/in/andersonsilva7/" target="_blank">Linkedin</a></strong></li>
 </ul>
 
-<h2>Observação 🙂</h2>
+<h2>Observação</h2>
 <p>
     Embora não esteja no nível de um desenvolvedor pleno, resolvi participar do processo. Assim pude testar meus
     conhecimentos e limitações.
@@ -22,7 +22,6 @@
     Detalhes do projeto
     Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
 </p>
-
 
 <h3>O projeto foi construído usando:</h3>
 <ul>
