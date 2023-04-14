@@ -8,19 +8,19 @@
 
 <h2>Observação</h2>
 
-    Embora não esteja no nível de um desenvolvedor pleno, resolvi participar do processo. Assim pude testar meus
-    conhecimentos e limitações. Sendo que ainda não tinha trabalhado com consumos de API.
+Embora não esteja no nível de um desenvolvedor pleno, resolvi participar do processo. Assim pude testar meus
+conhecimentos e limitações. Sendo que ainda não tinha trabalhado com consumos de API.
 
-    O projeto consiste em: “Criar uma tela de lista de quadrinhos, um modal de detalhe do quadrinho (comics) e o envio
-    dos
-    quadrinhos para um endereço selecionado no mapa, para isso utilizar o Google Maps.”
+O projeto consiste em: “Criar uma tela de lista de quadrinhos, um modal de detalhe do quadrinho (comics) e o envio
+dos
+quadrinhos para um endereço selecionado no mapa, para isso utilizar o Google Maps.”
 
-    A primeira etapa foi concluída (consumir a api marvel, criar a lista de quadrinhos junto com o modal), porém, a
-    última
-    parte que consiste no envio do quadrinho para um endereço escolhido no google não foi concluída.
+A primeira etapa foi concluída (consumir a api marvel, criar a lista de quadrinhos junto com o modal), porém, a
+última
+parte que consiste no envio do quadrinho para um endereço escolhido no google não foi concluída.
 
-    Detalhes do projeto
-    Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
+Detalhes do projeto
+Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
 
 <h3>O projeto foi construído usando:</h3>
 <ul>
@@ -32,14 +32,11 @@
     <li>API Google Maps</li>
 </ul>
 
-<p>
-    O layout da página segue um estilo simples e minimalista, e foi feita para se ajustar em vários tipos de tela.
-    O projeto procura seguir os conceitos básicos de UI e UX.
-</p>
+O layout da página segue um estilo simples e minimalista, e foi feita para se ajustar em vários tipos de tela.
+O projeto procura seguir os conceitos básicos de UI e UX.
 
-<strong>
-    <p>Links de referência</p>
-</strong>
+<h3>Links de referência</h3>
+    
 <ul>
     <li><a href="https://www.youtube.com/watch?v=hg66uftLsTQ" target="_blank">Vídeo 01</a></li>
     <li><a href="https://www.youtube.com/watch?v=kHjnnEBVgw4" target="_blank">Vídeo 02</a></li>
