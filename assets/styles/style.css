@@ -70,6 +70,7 @@ footer p {
 }
 
 .card img {
+    max-width: 250px;
     width: 250px;
     height: auto;
     -webkit-box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.5);
@@ -119,11 +120,13 @@ footer p {
 .card_info {
     display: flex;
     flex-direction: row;
+    overflow: auto;
 }
 
 .card_info img {
     max-width: 250px;
-    max-height: 550px;
+    width: 250px;
+    height: auto;
     margin-right: 2rem;
 }
 
@@ -146,6 +149,14 @@ footer p {
     font-weight: 100;
     line-height: 28px;
     color: var(--color-05);
+}
+
+.card_info #author,
+.card_info #description {
+    height: 110px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-overflow: ellipsis;
 }
 
 #modal_btn {
@@ -210,6 +221,155 @@ dialog {
 }
 
 /* ---  --- */
+@media (max-width: 1366px) {
+
+    #box {
+        width: 80%;
+    }
+
+    /* --- modal --- */
+    .card_info img {
+        height: auto;
+        width: 350px;
+        margin-right: 5rem;
+    }
+
+    .card_info h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+
+    .card_info p,
+    .card_info .title_info {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+
+    #back,
+    #send {
+        width: 130px;
+        height: 35px;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    #modal_btn {
+        margin-bottom: 10px;
+    }
+
+    dialog {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 1270px) {
+
+    #box {
+        width: 90%;
+        padding-top: 80px;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    dialog {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+/* --- --- */
+@media (max-width: 670px) {
+
+    #title {
+        font-size: 45px;
+        margin: auto;
+    }
+
+    /* --- content --- */
+    #content_cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+
+    /* --- card --- */
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-right: 1.5%;
+        padding-bottom: 50px;
+    }
+
+    .card h2 {
+        font-size: 35px;
+    }
+
+    .card p {
+        font-size: 25px;
+    }
+
+    /* --- modal-info --- */
+    .card_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5%;
+    }
+
+    .card_info img {
+        display: none;
+    }
+
+    .card_info h2 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 55px;
+        margin-top: 40px;
+    }
+
+    .card_info p,
+    .card_info .title_info {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .card_info .title_info {
+        margin-top: 75px;
+    }
+
+    #modal_btn {
+        padding: 5%;
+    }
+
+    #back,
+    #send {
+        width: 210px;
+        height: 55px;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+
+    footer p {
+        padding-top: 2.5%;
+    }
+
+    dialog {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* ---  --- */
 :root {
     --color-00: black;
     --color-01: #f40034;
@@ -220,4 +380,14 @@ dialog {
     --color-a-01: rgba(0, 0, 0, 0.8);
     --color-a-02: rgba(0, 0, 0, 0.2);
     --color-a-03: rgba(218, 17, 17, 0.5);
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-a-03);
 }
