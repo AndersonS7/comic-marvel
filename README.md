@@ -1,25 +1,24 @@
 <h1>COMICS MARVEL 😎</h1>
 
 <h2>Contato</h2>
-<strong><a href="https://anderson.vercel.app/" target="_blank">Meu portfólio</a></strong>
-<strong><a href="https://www.linkedin.com/in/andersonsilva7/" target="_blank">Linkedin</a></strong>
+<ul>
+    <li><strong><a href="https://anderson.vercel.app/" target="_blank">Meu portfólio</a></strong></li>
+    <li><strong><a href="https://www.linkedin.com/in/andersonsilva7/" target="_blank">Linkedin</a></strong></li>
+</ul>
 
-<h2>Observação</h2>
+<h2>Observação 🙂</h2>
 <p>
     Embora não esteja no nível de um desenvolvedor pleno, resolvi participar do processo. Assim pude testar meus
     conhecimentos e limitações.
-    <br>
 
     O projeto consiste em: “Criar uma tela de lista de quadrinhos, um modal de detalhe do quadrinho (comics) e o envio
     dos
     quadrinhos para um endereço selecionado no mapa, para isso utilizar o Google Maps.”
-    <br>
 
     A primeira etapa foi concluída (consumir a api marvel, criar a lista de quadrinhos junto com o modal), porém, a
     última
     parte que consiste no envio do quadrinho para um endereço escolhido no google não foi concluída.
-    <br>
-
+  
     Detalhes do projeto
     Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
 </p>
@@ -37,8 +36,6 @@
 
 <p>
     O layout da página segue um estilo simples e minimalista, e foi feita para se ajustar em vários tipos de tela.
-    <br>
-
     O projeto procura seguir os conceitos básicos de UI e UX.
 </p>
 
