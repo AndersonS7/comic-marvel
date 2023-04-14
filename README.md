@@ -7,9 +7,9 @@
 </ul>
 
 <h2>Observação</h2>
-<p>
+
     Embora não esteja no nível de um desenvolvedor pleno, resolvi participar do processo. Assim pude testar meus
-    conhecimentos e limitações.
+    conhecimentos e limitações. Sendo que ainda não tinha trabalhado com consumos de API.
 
     O projeto consiste em: “Criar uma tela de lista de quadrinhos, um modal de detalhe do quadrinho (comics) e o envio
     dos
@@ -18,10 +18,9 @@
     A primeira etapa foi concluída (consumir a api marvel, criar a lista de quadrinhos junto com o modal), porém, a
     última
     parte que consiste no envio do quadrinho para um endereço escolhido no google não foi concluída.
-  
+
     Detalhes do projeto
     Para a elaboração desse projeto, não foi utilizado nenhum framework (Angular, Vue ou React).
-</p>
 
 <h3>O projeto foi construído usando:</h3>
 <ul>
