@@ -1,12 +1,17 @@
 <h1>COMICS MARVEL 😁</h1>
 
-<h2>Contato</h2>
+<h2>Links úteis</h2>
 <ul>
+    <li><strong><a href="https://play.google.com/store/apps/details?id=com.AndersonQS.Path" target="_blank">Meu jogo na Google Play</a></strong></li>
     <li><strong><a href="https://anderson.vercel.app/" target="_blank">Meu portfólio</a></strong></li>
     <li><strong><a href="https://www.linkedin.com/in/andersonsilva7/" target="_blank">Linkedin</a></strong></li>
 </ul>
 
 <h2>Observação</h2>
+Atualmente estou cursando Ciência da Computação na instituição Cruzeiro do Sul EAD. Também estou participando
+de um Bootcamp “Potência Tech Angular Developer - Powered by iFood” na plataforma da DIO, onde utilizo para aprimorar minhas habilidades. 
+
+<h2>Informações do projeto</h2>
 
 Embora não esteja no nível de um desenvolvedor pleno, resolvi participar do processo. Assim pude testar meus
 conhecimentos e limitações. Sendo que ainda não tinha trabalhado com consumos de API.
