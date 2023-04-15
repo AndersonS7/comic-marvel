@@ -9,7 +9,7 @@
 
 <h2>Observação</h2>
 Atualmente estou cursando Ciência da Computação na instituição Cruzeiro do Sul EAD. Também estou participando
-de um Bootcamp “Potência Tech Angular Developer - Powered by iFood” na plataforma da DIO, onde utilizo para aprimorar minhas habilidades. 
+do Bootcamp “Potência Tech Angular Developer - Powered by iFood” na plataforma da DIO, onde utilizo para aprimorar minhas habilidades. 
 
 <h2>Informações do projeto</h2>
 
